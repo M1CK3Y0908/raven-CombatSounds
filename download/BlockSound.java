@@ -1,16 +1,10 @@
-/*
- * Scrims Blockhit Sounds
- * Raven B4 Script
- *
- * Blockhit damage sound with selectable Minecraft sounds.
- */
-
+//dev. M1CK3Y
 int lastHurtTime = 0;
 float lastHealth = -1.0f;
 
 void onLoad() {
     modules.registerDescription(
-        "Plays a selectable sound when you blockhit and take damage."
+        "v1.0.0 dev. M1CK3Y"
     );
 
     modules.registerSlider(
