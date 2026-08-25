@@ -11,6 +11,12 @@ boolean[] pendingCrit = new boolean[MAX_PENDING];
 
 String[] soundOptions = new String[] {
     "None",
+    "Neverlose",
+    "Fatality",
+    "gamesense",
+    "Hitmarker",
+    "Primordial",
+    "Rust Headshot",
     "Anvil",
     "Orb",
     "Click",
@@ -27,7 +33,7 @@ String[] soundOptions = new String[] {
 void onLoad() {
 
     modules.registerDescription(
-        "Combat Sounds v1.1.0 | dev. M1CK3Y"
+        "v1.2.0 | dev. M1CK3Y"
     );
 
     modules.registerButton(
@@ -676,36 +682,54 @@ String getSound(int index) {
     switch (index) {
 
         case 1:
-            return "random.anvil_land";
+            return "combatsounds:neverlose";
 
         case 2:
-            return "random.orb";
+            return "combatsounds:fatality";
 
         case 3:
-            return "random.click";
+            return "combatsounds:gamesense";
 
         case 4:
-            return "random.bow";
+            return "combatsounds:hitmarker";
 
         case 5:
-            return "random.pop";
+            return "combatsounds:primordial";
 
         case 6:
-            return "random.splash";
+            return "combatsounds:rust_headshot";
 
         case 7:
-            return "fire.ignite";
+            return "random.anvil_land";
 
         case 8:
-            return "note.pling";
+            return "random.orb";
 
         case 9:
-            return "random.glass";
+            return "random.click";
 
         case 10:
-            return "mob.blaze.hit";
+            return "random.bow";
 
         case 11:
+            return "random.pop";
+
+        case 12:
+            return "random.splash";
+
+        case 13:
+            return "fire.ignite";
+
+        case 14:
+            return "note.pling";
+
+        case 15:
+            return "random.glass";
+
+        case 16:
+            return "mob.blaze.hit";
+
+        case 17:
             return "mob.endermen.portal";
 
         default:
