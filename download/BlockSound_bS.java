@@ -13,7 +13,7 @@ String[] soundOptions = new String[] {
     "None",
     "Neverlose",
     "Fatality",
-    "gameSense",
+    "gamesense",
     "Hitmarker",
     "Primordial",
     "Rust Headshot",
