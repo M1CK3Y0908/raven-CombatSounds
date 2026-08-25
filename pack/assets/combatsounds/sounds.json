@@ -1,0 +1,32 @@
+{
+  "neverlose": {
+    "sounds": [
+      "neverlose"
+    ]
+  },
+  "fatality": {
+    "sounds": [
+      "fatality"
+    ]
+  },
+  "gamesense": {
+    "sounds": [
+      "gamesense"
+    ]
+  },
+  "hitmarker": {
+    "sounds": [
+      "hitmarker"
+    ]
+  },
+  "primordial": {
+    "sounds": [
+      "primordial"
+    ]
+  },
+  "rust_headshot": {
+    "sounds": [
+      "rust_headshot"
+    ]
+  }
+}
